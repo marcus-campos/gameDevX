@@ -10,7 +10,7 @@ namespace GameDevProjextW
     {
         /// <summary>
         /// The main entry point for the application.
-        /// </summary>
+        /// </summary>//viadão
         [STAThread]
         static void Main()
         {
