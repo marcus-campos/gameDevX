@@ -1,0 +1,9 @@
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\GameDevProject.exe
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\GameDevProject.pdb
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.csprojResolveAssemblyReference.cache
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.exe
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.pdb
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Texturas\level1.xnb
+C:\Users\Marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Arial.xnb
+C:\Users\Marcus\documents\visual studio 2013\Projects\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Texturas\Dialogo.xnb

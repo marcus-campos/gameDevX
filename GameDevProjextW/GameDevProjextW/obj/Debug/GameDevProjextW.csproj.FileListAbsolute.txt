@@ -1,0 +1,9 @@
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.exe.config
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.exe
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.pdb
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.csprojResolveAssemblyReference.cache
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.Form1.resources
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.Properties.Resources.resources
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.csproj.GenerateResource.Cache
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.exe
+c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.pdb
