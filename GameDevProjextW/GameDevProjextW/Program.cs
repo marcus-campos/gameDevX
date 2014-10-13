@@ -6,11 +6,11 @@ using System.Windows.Forms;
 
 namespace GameDevProjextW
 {
-    static class Program
+    static class Program : Calculos
     {
         /// <summary>
         /// The main entry point for the application.
-        /// </summary>//viadão
+        /// </summary>
         [STAThread]
         static void Main()
         {

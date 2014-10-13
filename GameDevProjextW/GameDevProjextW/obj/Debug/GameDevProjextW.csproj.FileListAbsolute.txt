@@ -10,3 +10,9 @@ c:\users\marcus\documents\visual studio 2013\Projects\GameDevProjextW\GameDevPro
 C:\Users\Danilo\Documents\GitHub\gameDevX\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.exe.config
 C:\Users\Danilo\Documents\GitHub\gameDevX\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.exe
 C:\Users\Danilo\Documents\GitHub\gameDevX\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.pdb
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.exe
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\bin\Debug\GameDevProjextW.pdb
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.csprojResolveAssemblyReference.cache
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.Form1.resources
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.Properties.Resources.resources
+C:\Users\Danilo\Documents\GitHub\gamedevx\GameDevProjextW\GameDevProjextW\obj\Debug\GameDevProjextW.csproj.GenerateResource.Cache
