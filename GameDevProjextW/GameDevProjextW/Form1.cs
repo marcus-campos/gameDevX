@@ -16,5 +16,10 @@ namespace GameDevProjextW
         {
             InitializeComponent();
         }
+
+        private void Form1_DoubleClick(object sender, EventArgs e)
+        {
+            //chama o menu ao dar duplo click
+        }
     }
 }

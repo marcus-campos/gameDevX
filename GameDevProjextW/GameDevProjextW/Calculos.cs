@@ -15,7 +15,7 @@ namespace GameDevProjextW
 
         private int starGames;
         private int informedgamer;
-        private int gameHero;
+        private int gameHero; //apos mostrar as avaliações é necessario zerar*****
         private int allGames;
 
         public void calcula_Tema_Genero_Plataforma_grafico(double tema, double genero, double plataforma, double pesquisa)
@@ -61,34 +61,34 @@ namespace GameDevProjextW
         {//Ainda criando o jogo de acordo com porcentagem em engine, jogabilidade e historia
             for (int i = 0; i < 5; i++)
             {
-                erro = 0;
-                design = 0;
-                tecnologia = 0;
-                pesquisa = 0;
+                erro = erro + Convert.ToInt32(engine * jogabilidade / historia * 2);
+                design = design + Convert.ToInt32(engine * historia / jogabilidade * 2);
+                tecnologia = tecnologia + Convert.ToInt32(historia * jogabilidade / engine * 2);
+                pesquisa = pesquisa + Convert.ToInt32(historia * engine / jogabilidade * 2);
                 System.Threading.Thread.Sleep(3000);
             }
         }
 
-        public void calcula_Dialogo_Design_IA()
+        public void calcula_Dialogo_Design_IA(double dialogo, double design, double iA)
         {//Ainda criando o jogo de acordo com porcentagem em dialogo, design e IA
             for (int i = 0; i < 5; i++)
             {
-                erro = 0;
-                design = 0;
-                tecnologia = 0;
-                pesquisa = 0;
+                erro = erro + Convert.ToInt32(iA * design / dialogo * 2);
+                design = design + Convert.ToInt32(iA * dialogo / design * 2);
+                tecnologia = tecnologia + Convert.ToInt32(dialogo * design / iA * 2);
+                pesquisa = pesquisa + Convert.ToInt32(dialogo * iA / design * 2);
                 System.Threading.Thread.Sleep(3000);
             }
         }
 
-        public void calcula_DesignMundo_grafico_Som()
+        public void calcula_DesignMundo_grafico_Som(double designMundo, double grafico, double som)
         {//Ainda criando o jogo de acordo com porcentagem em design do Mundo, tipo de grafico e sons
             for (int i = 0; i < 5; i++)
             {
-                erro = 0;
-                design = 0;
-                tecnologia = 0;
-                pesquisa = 0;
+                erro = erro + Convert.ToInt32(som * grafico / designMundo * 2);
+                design = design + Convert.ToInt32(som * designMundo / grafico * 2);
+                tecnologia = tecnologia + Convert.ToInt32(designMundo * grafico / som * 2);
+                pesquisa = pesquisa + Convert.ToInt32(designMundo * som / grafico * 2);
                 System.Threading.Thread.Sleep(3000);
             }
             calculaAvaliacao();//calcula a avaliação
@@ -96,11 +96,11 @@ namespace GameDevProjextW
         }
 
         public void calculaAvaliacao()//Avalia o jogo
-        {
-            starGames = 0;
-            informedgamer = 0;
-            gameHero = 0;
-            allGames = 0;
+        {//apos mostrar as avaliações é necessario zerar*****
+            starGames = Convert.ToInt32((pesquisa / erro) / design * tecnologia);
+            informedgamer = Convert.ToInt32((pesquisa / erro) / design + 1 * tecnologia);
+            gameHero = Convert.ToInt32((pesquisa / erro) / design + 2 * tecnologia);
+            allGames = Convert.ToInt32((pesquisa / erro) / design * tecnologia + 3);
         }
 
         public void zerarProducao() //Isto roda ao final de cada Jogo

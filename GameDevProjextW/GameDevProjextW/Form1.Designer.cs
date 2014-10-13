@@ -44,6 +44,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.DoubleClick += new System.EventHandler(this.Form1_DoubleClick);
             this.ResumeLayout(false);
 
         }
