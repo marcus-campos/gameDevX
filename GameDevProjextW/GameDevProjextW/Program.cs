@@ -6,13 +6,13 @@ using System.Windows.Forms;
 
 namespace GameDevProjextW
 {
-    static class Program : Calculos
+    static class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
